@@ -1,7 +1,10 @@
 DreamForge Web 🌙✨
+
 The official landing page for DreamForge, an AI-powered dream incubation application. This site showcases the app's ability to influence subconscious storytelling using Groq, ElevenLabs, and Flux Schnell.
 
 [🚀 View Live Site](https://dreamforge-site-kappa.vercel.app/)
+
+![DreamForge Web Preview](https://github.com/kkadapa/dreamforge-site/blob/main/dreamforge-demo.png)
 
 🎨 About The Project
 This repository contains the marketing website/landing page for the DreamForge mobile app. It is designed with a "Deep Sleep" aesthetic, featuring glassmorphism, smooth entrance animations, and a bento-grid layout to highlight the app's technical capabilities.
