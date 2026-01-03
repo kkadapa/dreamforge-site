@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+DreamForge Web 🌙✨
+The official landing page for DreamForge, an AI-powered dream incubation application. This site showcases the app's ability to influence subconscious storytelling using Groq, ElevenLabs, and Flux Schnell.
 
-## Getting Started
+[🚀 View Live Site](https://dreamforge-site-kappa.vercel.app/)
 
-First, run the development server:
+🎨 About The Project
+This repository contains the marketing website/landing page for the DreamForge mobile app. It is designed with a "Deep Sleep" aesthetic, featuring glassmorphism, smooth entrance animations, and a bento-grid layout to highlight the app's technical capabilities.
 
-```bash
+Key Features
+
+Modern Design: Built with a "Deep Sleep" dark mode theme (slate-950) and bioluminescent gradients.
+
+Responsive: Fully mobile-optimized layout using Tailwind CSS.
+
+Interactive: Smooth scroll and fade-in animations powered by Framer Motion.
+
+Performance: High-performance static generation via Next.js 14 (App Router).
+
+🛠️ Tech Stack
+Framework: Next.js 14 (App Router)
+
+Styling: Tailwind CSS
+
+Animations: Framer Motion
+
+Icons: Lucide React
+
+Deployment: Vercel
+
+🚀 Getting Started
+To run this project locally:
+
+Clone the repository:
+
+Bash
+git clone https://github.com/kkadapa/dreamforge-site.git
+cd dreamforge-site
+Install dependencies:
+
+Bash
+npm install
+# or
+yarn install
+Run the development server:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📂 Project Structure
+Bash
+├── app/
+│   ├── layout.tsx      # Main layout (fonts, global styles)
+│   ├── page.tsx        # The Single Page Landing (Hero, Features, Footer)
+│   └── globals.css     # Tailwind imports
+├── public/             # Static assets (images, icons)
+├── tailwind.config.ts  # Tailwind configuration
+└── package.json        # Dependencies
+🚢 Deployment
+This project is optimized for deployment on Vercel.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Push your changes to GitHub.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Import the repository in Vercel.
 
-## Learn More
+Vercel will auto-detect Next.js and deploy.
 
-To learn more about Next.js, take a look at the following resources:
+Your latest deployment is live at: https://dreamforge-site-kappa.vercel.app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔗 Related Repositories
+DreamForge App: (Link to your main app repo here if public)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+License MIT
